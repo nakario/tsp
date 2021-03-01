@@ -6,8 +6,7 @@
 4 sub
 5 jz 2
 
-DD$ nop (2, 0)
-AAASSS$ jz 6 (-1, -3)
+DAASSS$ jz 6 (-1, -3)
 SS$ jz 2 (-1, -5)
 DDWWW$ getchar (1, -2)
 DD$ putchar (3, -2)
@@ -25,9 +24,9 @@ j (-1, -5)
 s   |
     |
     |   p
-----@-n--
-    | # 
-    |i#o
-   6###   
-   #| 
+----@----
+    |   
+    |i o
+   6|
+    |
    2|
