@@ -42,7 +42,7 @@ TSPは巡回セールスマン問題から着想を得た難解プログラミ�
     - Go言語におけるruneの扱いと同様である。 cf. [Strings, bytes, runes and characters in Go](https://blog.golang.org/strings)
   - 入力がEOFに達したときは0がpushされる。
   - スタックの要素数が命令に必要な数未満であったり、範囲外を参照しようとするとnopとして扱われる。
-    - コマンド引数 `-StrictMode` を指定すると異常終了する。
+    - コマンド引数 `-strict` を指定すると異常終了する。
 
 ## Usage
 
